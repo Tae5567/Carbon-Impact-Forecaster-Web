@@ -1,0 +1,63 @@
+/* General styles for the home page */
+.home-container {
+    font-family: 'Arial, sans-serif';
+    color: #333;
+}
+
+/* Header section styles */
+.header-section {
+    /*background-image: url('header-image.jpg'); /* Placeholder image */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.header-content h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+/* Info section styles */
+.info-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.info-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.info-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+}

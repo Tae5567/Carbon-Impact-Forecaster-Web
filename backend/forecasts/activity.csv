@@ -1,0 +1,457 @@
+﻿Activity ID,Activity Type,Activity Description,Distance (km),Mode of Transport,Duration (hours),Food Items,Emission Factor kg CO2 per unit,Calories Consumed,Electricity Usage (kWh),Gas Usage (m^3),Energy Type,Appliances Used,Carbon Footprint (kg CO2)
+1,Travel,Commute to work,10,Car,0.5,,0.171,,,,,,1.71
+2,Diet,Breakfast,,,,"Bread, Eggs",0.002,350,,,,,0.7
+3,Energy,Home Electricity Use,,,,,0.233,,10,,Electricity,"TV, Fridge",2.33
+4,Travel,Commute to work,25,Bus,1,,0.103,,,,,,2.575
+5,Diet,Lunch,,,,"Beef, Salad",0.005,600,,,,,3
+6,Energy,Home Electricity Use,,,,,0.233,,23.5,,Electricity,,5.476
+7,Travel,Commute to work,30,Bike,1.5,,0,,,,,,0
+8,Diet,Breakfast,,,,Cereal,0.002,300,,,,,0.6
+9,Energy,Home Heating,,,,,2.04,,,3,Gas,Heater,6.12
+10,Travel,Commute to work,5,Walk,0.5,,0,,,,,,0
+11,Diet,Lunch,,,,Steak sandwich,0.005,650,,,,,3.25
+12,Energy,Washing clothes,,,,,0.233,,2,,Electricity,Washing Machine,0.466
+13,Travel,Trip to another state,200,Bus,8,,0.103,,,,,,20.6
+14,Diet,Dinner at restaurant,,,,"Bread, Steak, Mashed Potatoes, Salad, Red Wine",0.005,1650,,,,,8.25
+15,Energy,Laundry,,,,,0.233,,5.75,,Electricity,Washing Machine,1.34
+16,Travel,Drive down the road,2,Car,0.08,,0.171,,,,,,0.342
+17,Diet,Breakfast,,,,Eggs,0.002,286,,,,,0.572
+18,Energy,Laundry,,,,,0.233,,7.5,,Electricity,Washing Machine,1.748
+19,Travel,Commute to work,20,Car,0.33,,0.171,,,,,,3.42
+20,Diet,Lunch,,,,Salad,0.002,350,,,,,0.7
+21,Energy,Home Electricity Use,,,,,0.233,,15.63,,Electricity,"Blender, TV, Fridge",3.642
+22,Travel,Drive to Supermarket,10,Car,0.15,,0.171,,,,,,1.71
+23,Diet,Breakfast,,,,Cereal,0.002,300,,,,,0.6
+24,Energy,Home Electricity Use,,,,,0.233,,42,,Electricity,"TV, Fridge, Blender, Washing Machine, Dryer, Treadmill",9.786
+25,Travel,Commute to work,10,Bike,0.5,,0,,,,,,0
+26,Diet,Breakfast,,,,"Eggs, Spinach",0.002,350,,,,,0.7
+27,Energy,Home Heating,,,,,2.04,,,5,Gas,,10.2
+28,Travel,Walk to dinner,1,Walk,0.16,,0,,,,,,0
+29,Diet,Dinner at restaurant,,,,"Pork, Wine, Cheese, Bread, Salad",0.005,1750,,,,,8.75
+30,Energy,Cooking,,,,,2.04,,,4.25,Gas,Gas stove,8.67
+31,Travel,Trip to another state,450,Bus,12,,0.103,,,,,,46.35
+32,Diet,Brunch,,,,"Chicken, Waffles, Eggs",0.005,900,,,,,4.5
+33,Energy,Home Electricity Use,,,,,2.04,,,,Electricity,,0
+34,Travel,Road Trip,150,Car,2.48,,0.171,,,,,,25.65
+35,Diet,Lunch,,,,Salad,0.002,250,,,,,0.5
+36,Energy,Home Electricity Use,,,,,0.233,,35,,Electricity,"TV, Fridge, Blender, Electric Stove",8.155
+37,Travel,Daily Walk,10,Walk,2,,0,,,,,,0
+38,Diet,Lunch,,,,Veggie Burger,0.002,450,,,,,0.9
+39,Energy,Home Electricity Use,,,,,0.233,,42,,Electricity,"TV, Fridge, Blender, Washing Machine, Dryer, Treadmill",9.786
+40,Travel,Commute to work,30,Car,0.65,,0.171,,,,,,5.13
+41,Diet,Dinner at restaurant,,,,"Steak, Wine, Burgers, Potatoes",0.005,1850,,,,,9.25
+42,Energy,Home Heating,,,,,0.233,,15,,Electricity,Electric Heater,3.495
+43,Travel,Drive to Supermarket,10,Car,0.35,,0.171,,,,,,1.71
+44,Diet,Breakfast,,,,"Steak, Eggs, Sausage",0.005,600,,,,,3
+45,Energy,Laundry,,,,,0.233,,20,,Electricity,Washing Machine,4.66
+46,Travel,Road Trip,250,Car,,,0.171,,,,,,42.75
+47,Diet,Lunch,,,,"Lamb, Potatoes",0.005,650,,,,,3.25
+48,Energy,Home Heating,,,,,2.04,,,8.5,Gas,,17.34
+49,Travel,Go to Supermarket,35,Bus,0.6,,0.103,,,,,,3.605
+50,Diet,Dinner at restaurant,,,,"Salad, Wine, Salad, Ice Cream",0.002,950,,,,,1.9
+51,Energy,Home Electricity Use,,,,,0.233,,45,,Electricity,"Washing Machine, Dryer, Treadmill, TV, Fridge, Blender",10.485
+52,Travel,Commute to work,40,Car,0.7,,0.171,,,,,,6.84
+53,Diet,Brunch,,,,"Bread, Steak, Mashed Potatoes, Salad, Red Wine",0.005,1200,,,,,6
+54,Energy,Home Electricity Use,,,,,0.233,,55,,Electricity,"TV, Fridge, Blender, Washing Machine, Dryer, Treadmill",12.815
+55,Travel,Commute to work,20,Car,0.33,,0.171,,,,,,3.42
+56,Diet,Lunch,,,,"Chicken, Salad, Juice",0.005,750,,,,,3.75
+57,Energy,Cooking,,,,,0.233,,35,,Electricity,Electric Stove,8.155
+58,Travel,Commute to work,45,Car,0.75,,0.171,,,,,,7.695
+59,Diet,Lunch,,,,"Pork, Wine, Cheese, Bread, Salad",0.005,1350,,,,,6.75
+60,Energy,Home Electricity Use,,,,,0.233,,20,,Electricity,"TV, Fridge",4.66
+61,Travel,Commute to work,20,Car,0.45,,0.171,,,,,,3.42
+62,Diet,Dinner at restaurant,,,,"Chicken, Potatoes, Pasta",0.005,1200,,,,,6
+63,Energy,Home Heating,,,,,2.04,,,9.3,Gas,,18.972
+64,Travel,Commute to work,50,Car,1,,0.171,,,,,,8.55
+65,Diet,Breakfast,,,,"Bread, Sausage",0.005,575,,,,,2.875
+66,Energy,Home Electricity Use,,,,,0.233,,38,,Electricity,"Microwave, Blender, TV, Fridge",8.854
+67,Travel,Trip to another state,86,Bus,2,,0.103,,,,,,8.858
+68,Diet,Dinner,,,,"Salad, Wine",0.002,700,,,,,1.4
+69,Energy,Cooking,,,,,2.04,,,15,Gas,Gas stove,30.6
+70,Travel,Commute to work,25,Bus,0.5,,0.103,,,,,,2.575
+71,Diet,Dinner,,,,"Steak, Potatoes",0.005,650,,,,,3.25
+72,Energy,Cooking,,,,,0.233,,20,,Electricity,Electric Stove,4.66
+73,Travel,Road Trip,300,Car,6.5,,0.171,,,,,,51.3
+74,Diet,Lunch,,,,Sandwich,0.005,450,,,,,2.25
+75,Energy,Cooking,,,,,2.04,,,17.5,Gas,Gas stove,35.7
+76,Travel,Commute to work,30,Car,0.8,,0.171,,,,,,5.13
+77,Diet,Dinner at restaurant,,,,Steak,0.005,550,,,,,2.75
+78,Energy,Home Heating,,,,,2.04,,,6.75,Gas,,13.77
+79,Travel,Commute to work,10,Car,0.25,,0.171,,,,,,1.71
+80,Diet,Breakfast,,,,Chicken Sausage,0.005,300,,,,,1.5
+81,Energy,Home Electricity Use,,,,,0.233,,25.6,,Electricity,,5.965
+82,Travel,Trip to another state,100,Bus,6,,0.103,,,,,,10.3
+83,Diet,Dinner,,,,"Salad, Wine",0.002,600,,,,,1.2
+84,Energy,Cooking,,,,,2.04,,,10,Gas,Gas stove,20.4
+85,Travel,Commute to work,18,Bus,0.5,,0.103,,,,,,1.854
+86,Diet,Dinner,,,,Steak,0.005,700,,,,,3.5
+87,Energy,Cooking,,,,,0.233,,20,,Electricity,Electric Stove,4.66
+88,Travel,Road Trip,135,Car,5,,0.171,,,,,,23.085
+89,Diet,Lunch,,,,Sandwich,0.005,400,,,,,2
+90,Energy,Cooking,,,,,2.04,,,25,Gas,Gas stove,51
+91,Travel,Commute to work,12,Bike,0.65,,0,,,,,,0
+92,Diet,Breakfast,,,,"Eggs, Spinach",0.002,350,,,,,0.7
+93,Energy,Home Heating,,,,,2.04,,,12,Gas,,24.48
+94,Travel,Walk to dinner,3,Walk,0.3,,0,,,,,,0
+95,Diet,Dinner at restaurant,,,,"Lamb, Mashed Potatoes, Wine",0.005,800,,,,,4
+96,Energy,Cooking,,,,,2.04,,,13,Gas,Gas stove,26.52
+97,Travel,Trip to another state,450,Bus,10.5,,0.103,,,,,,46.35
+98,Diet,Brunch,,,,"Chicken, Waffles, Eggs",0.005,850,,,,,4.25
+99,Energy,Home Electricity Use,,,,,0.233,,23,,Electricity,"TV, Fridge, Blender, Electric Stove",5.359
+100,Travel,Road Trip,85,Car,3,,0.171,,,,,,14.535
+101,Diet,Lunch,,,,Salad,0.002,450,,,,,0.9
+102,Energy,Home Electricity Use,,,,,0.233,,12.3,,Electricity,"TV, Fridge",2.866
+103,Travel,Daily Walk,8,Walk,1.5,,0,,,,,,0
+104,Diet,Lunch,,,,"Salad, Tofu ",0.002,500,,,,,1
+105,Energy,Home Electricity Use,,,,,0.233,,38.76,,Electricity,"TV, Fridge, Blender, Washing Machine, Dryer, Treadmill",9.031
+106,Travel,Commute to work,10,Car,0.35,,0.171,,,,,,1.71
+107,Diet,Dinner at restaurant,,,,"Steak, Wine, Burgers, Potatoes",0.005,1000,,,,,5
+108,Energy,Home Heating,,,,,0.233,,12.55,,Electricity,Electric Heater,2.924
+109,Travel,Drive to Supermarket,10,Car,0.2,,0.171,,,,,,1.71
+110,Diet,Breakfast,,,,Chicken Sausage,0.005,500,,,,,2.5
+111,Energy,Laundry,,,,,0.233,,14.6,,Electricity,"Washing Machine, Dryer",3.402
+112,Travel,Road Trip,100,Car,4.75,,0.171,,,,,,17.1
+113,Diet,Lunch,,,,Steak sandwich,0.005,650,,,,,3.25
+114,Energy,Home Heating,,,,,2.04,,,17.3,Gas,,35.292
+115,Travel,Go to Supermarket,20,Bus,1,,0.103,,,,,,2.06
+116,Diet,Dinner at restaurant,,,,"Salad, Wine, Salad, Ice Cream",0.002,1000,,,,,2
+117,Energy,Home Electricity Use,,,,,0.233,,58,,Electricity,"Blender, TV,Washing Machine, Dryer, Treadmill, Electric Stove, Fridge",13.514
+118,Travel,Commute to work,30,Car,0.7,,0.171,,,,,,5.13
+119,Diet,Brunch,,,,"Waffles, Chicken, Pasta, Shrimp",0.005,850,,,,,4.25
+120,Energy,Home Electricity Use,,,,,0.233,,23,,Electricity,"TV, Fridge, A/C",5.359
+121,Travel,Commute to work,15.5,Car,0.3,,0.171,,,,,,2.651
+122,Diet,Lunch,,,,Chicken salad sandwich,0.005,500,,,,,2.5
+123,Energy,Cooking,,,,,0.233,,25,,Electricity,Electric Stove,5.825
+124,Travel,Commute to work,8,Car,0.25,,0.171,,,,,,1.368
+125,Diet,Lunch,,,,Sandwich,0.005,400,,,,,2
+126,Energy,Home Electricity Use,,,,,0.233,,35.67,,Electricity,"Microwave, Blender, TV, Fridge",8.311
+127,Travel,Commute to work,20,Car,0.33,,0.171,,,,,,3.42
+128,Diet,Dinner at restaurant,,,,Steak,0.005,600,,,,,3
+129,Energy,Home Heating,,,,,2.04,,,10.5,Gas,,21.42
+130,Travel,Commute to work,50,Car,1,,0.171,,,,,,8.55
+131,Diet,Breakfast,,,,Chicken Sausage,0.005,400,,,,,2
+132,Energy,Home Electricity Use,,,,,0.233,,40,,Electricity,"TV, Fridge, Blender, Washing Machine, Dryer, Treadmill, Microwave, Lights",9.32
+133,Travel,Trip to another state,500,Bus,15,,0.103,,,,,,51.5
+134,Diet,Dinner,,,,"Salad, Wine",0.002,500,,,,,1
+135,Energy,Cooking,,,,,2.04,,,13,Gas,Gas stove,26.52
+136,Travel,Commute to work,30,Car,0.5,,0.171,,,,,,5.13
+137,Diet,Breakfast,,,,"Bread, Eggs",0.002,350,,,,,0.7
+138,Energy,Home Electricity Use,,,,,0.233,,10,,Electricity,"TV, Fridge",2.33
+139,Travel,Commute to work,25,Bus,1,,0.103,,,,,,2.575
+140,Diet,Lunch,,,,"Beef, Salad",0.005,600,,,,,3
+141,Energy,Drive to Supermarket,5,Car,0.09,,0.171,,,,,,0
+142,Travel,Commute to work,30,Bus,1.5,,0,,,,,,0
+143,Diet,Breakfast,,,,Cereal,0.002,300,,,,,0.6
+144,Energy,Home Heating,,,,,2.04,,5.5,3,Electricity,Heater,11.22
+145,Travel,Commute to work,,Walk,0.5,,0,,,,,,0
+146,Diet,Lunch,,,,Steak sandwich,0.005,650,,,,,3.25
+147,Energy,Washing clothes,,,,,0.233,,2,,Electricity,Washing Machine,0.466
+148,Travel,Trip to another state,200,Bus,8,,0.103,,,,,,20.6
+149,Diet,Dinner at restaurant,,,,"Bread, Steak, Mashed Potatoes, Salad, Red Wine",0.005,1650,,,,,8.25
+150,Energy,Laundry,,,,,0.233,,5.75,,Electricity,Washing Machine,1.34
+151,Travel,Drive down the road,2,Car,0.08,,0.171,,,,,,0.342
+152,Diet,Breakfast,,,,Eggs,0.002,286,,,,,0.572
+153,Energy,Laundry,,,,,0.233,,7.5,,Electricity,Washing Machine,1.748
+154,Travel,Commute to work,20,Car,0.33,,0.171,,,,,,3.42
+155,Diet,Lunch,,,,Salad,0.002,350,,,,,0.7
+156,Energy,Home Electricity Use,,,,,0.233,,15.63,,,"Blender, TV, Fridge",0
+157,Travel,Drive to Supermarket,10,Car,0.15,,0.171,,,,,,1.71
+158,Diet,Breakfast,,,,Cereal,0.002,300,,,,,0.6
+159,Energy,Home Electricity Use,,,,,0.233,,42,,Electricity,"TV, Fridge, Blender, Washing Machine, Dryer, Treadmill",9.786
+160,Travel,Commute to work,10,Bike,0.5,,0,,,,,,0
+161,Diet,Breakfast,,,,"Eggs, Spinach",0.002,350,,,,,0.7
+162,Energy,Home Heating,,,,,2.04,,,5,Gas,,10.2
+163,Travel,Walk to dinner,1,Walk,0.16,,0,,,,,,0
+164,Diet,Dinner at restaurant,,,,"Pork, Wine, Cheese, Bread, Salad",0.005,1750,,,,,8.75
+165,Energy,Cooking,,,,,2.04,,,4.25,Gas,Gas stove,8.67
+166,Travel,Trip to another state,450,Bus,12,,0.103,,,,,,46.35
+167,Diet,Brunch,,,,"Chicken, Waffles, Eggs",0.005,900,,,,,4.5
+168,Energy,Home Electricity Use,,,,,2.04,,,,Electricity,,0
+169,Travel,Road Trip,150,Car,2.48,,0.171,,,,,,25.65
+170,Diet,Lunch,,,,Salad,0.002,250,,,,,0.5
+171,Energy,Home Electricity Use,,,,,0.233,,35,,Electricity,"TV, Fridge, Blender, Electric Stove",8.155
+172,Travel,Daily Walk,10,Walk,2,,0,,,,,,0
+173,Diet,Lunch,,,,Veggie Burger,0.002,450,,,,,0.9
+174,Energy,Home Electricity Use,,,,,0.233,,42,,Electricity,"TV, Fridge, Blender, Washing Machine, Dryer, Treadmill",9.786
+175,Travel,Commute to work,30,Car,0.65,,0.171,,,,,,5.13
+176,Diet,Dinner at restaurant,,,,"Steak, Wine, Burgers, Potatoes",0.005,1850,,,,,9.25
+177,Energy,Home Heating,,,,,0.233,,15,,Electricity,Electric Heater,3.495
+178,Travel,Drive to Supermarket,10,Car,0.35,,0.171,,,,,,1.71
+179,Diet,Breakfast,,,,"Steak, Eggs, Sausage",0.005,600,,,,,3
+180,Energy,Laundry,,,,,0.233,,20,,Electricity,Washing Machine,4.66
+181,Travel,Road Trip,250,Car,,,0.171,,,,,,42.75
+182,Diet,Lunch,,,,"Lamb, Potatoes",0.005,850,,,,,4.25
+183,Energy,Home Heating,,,,,2.04,,,8.5,Gas,,17.34
+184,Travel,Go to Supermarket,35,Bus,0.6,,0.103,,,,,,3.605
+185,Diet,Dinner at restaurant,,,,"Salad, Wine, Salad, Ice Cream",0.002,950,,,,,1.9
+186,Energy,Home Electricity Use,,,,,0.233,,58,,Electricity,"TV, Fridge, Blender, Washing Machine, Dryer, Treadmill, Microwave, Lights",13.514
+187,Travel,Commute to work,30,Bus,1,,0.103,,,,,,3.09
+188,Diet,Lunch,,,,Steak sandwich,0.005,500,,,,,2.5
+189,Energy,Home Heating,,,,,2.04,,,15.23,Gas,,31.069
+190,Travel,Commute to work,10,Bike,0.75,,0,,,,,,0
+191,Diet,Breakfast,,,,"Eggs, Spinach",0.002,350,,,,,0.7
+192,Energy,Home Heating,,,,,2.04,,,7.52,Gas,,15.341
+193,Travel,Commute to work,5,Walk,0.5,,0,,,,,,0
+194,Diet,Lunch,,,,Sandwich,0.005,450,,,,,2.25
+195,Energy,Washing clothes,,,,,0.233,,24.65,,Electricity,Washing Machine,5.743
+196,Travel,Trip to another state,350,Bus,5,,0.103,,,,,,36.05
+197,Diet,Dinner at restaurant,,,,Steak,0.005,750,,,,,3.75
+198,Energy,Laundry,,,,,0.233,,15.68,,Electricity,"Washing Machine, Dryer",3.653
+199,Travel,Drive down the road,3.5,Car,0.25,,0.171,,,,,,0.599
+200,Diet,Breakfast,,,,"Eggs, Spinach",0.002,250,,,,,0.5
+201,Energy,Laundry,,,,,0.233,,5.75,,Electricity,"Washing Machine, Dryer",1.34
+202,Travel,Commute to work,55,Car,1,,0.171,,,,,,9.405
+203,Diet,Lunch,,,,Salad,0.002,450,,,,,0.9
+204,Energy,Home Electricity Use,,,,,0.233,,42.5,,Electricity,"TV, Fridge, Blender, Washing Machine, Dryer, Treadmill, Microwave, Lights",9.903
+205,Travel,Drive to Supermarket,15,Car,0.4,,0.171,,,,,,2.565
+206,Diet,Breakfast,,,,Eggs,0.002,250,,,,,0.5
+207,Energy,Home Electricity Use,,,,,0.233,,35.46,,Electricity,"Blender, TV, Fridge",8.262
+208,Travel,Commute to work,10,Walk,1.5,,0,,,,,,0
+209,Diet,Breakfast,,,,"Eggs, Spinach",0.002,380,,,,,0.76
+210,Energy,Home Heating,,,,,2.04,,,8.5,Gas,,17.34
+211,Travel,Walk to dinner,8,Walk,0.65,,0,,,,,,0
+212,Diet,Dinner at restaurant,,,,"Steak, Wine, Burgers, Potatoes",0.005,1850,,,,,9.25
+213,Energy,Cooking,,,,,2.04,,,12.5,,Gas stove,0
+214,Travel,Trip to another state,285,Bus,4.25,,0.103,,,,,,29.355
+215,Diet,Brunch,,,,"Chicken, Waffles, Eggs",0.005,975,,,,,4.875
+216,Energy,Home Electricity Use,,,,,2.04,,,10.36,Gas,,21.134
+217,Travel,Road Trip,200,Car,5.5,,0.171,,,,,,34.2
+218,Diet,Lunch,,,,Salad,0.002,320,,,,,0.64
+219,Energy,Home Electricity Use,,,,,0.233,,28.93,,Electricity,"TV, Fridge, Blender, Electric Stove",6.741
+220,Travel,Daily Walk,25,Walk,3.5,,0,,,,,,0
+221,Diet,Lunch,,,,"Salad, Wine, Salad, Ice Cream",0.002,1000,,,,,2
+222,Energy,Home Electricity Use,,,,,0.233,,15.25,,Electricity,"TV, Fridge, A/C",3.553
+223,Travel,Commute to work,50,Car,1,,0.171,,,,,,8.55
+224,Diet,Dinner at restaurant,,,,"Steak,Potatoes",0.005,850,,,,,4.25
+225,Energy,Home Heating,,,,,0.233,,25.68,,Electricity,Electric Heater,5.983
+226,Travel,Drive to Supermarket,8,Car,0.35,,0.171,,,,,,1.368
+227,Diet,Breakfast,,,,"Chicken, Waffles, Eggs",0.005,650,,,,,3.25
+228,Energy,Laundry,,,,,0.233,,10.8,,Electricity,"Washing Machine, Dryer",2.516
+229,Travel,Road Trip,380,Car,6,,0.171,,,,,,64.98
+230,Diet,Lunch,,,,Steak sandwich,0.005,650,,,,,3.25
+231,Energy,Home Heating,,,,,2.04,,,3.87,Gas,,7.895
+232,Travel,Go to Supermarket,25,Bus,1,,0.103,,,,,,2.575
+233,Diet,Dinner at restaurant,,,,"Salad, Wine",0.002,800,,,,,1.6
+234,Energy,Home Electricity Use,,,,,0.233,,23.5,,Electricity,"TV, Fridge, Blender, Washing Machine, Dryer, Treadmill, Microwave, Lights",5.476
+235,Travel,Commute to work,30,Car,0.5,,0.171,,,,,,5.13
+236,Diet,Brunch,,,,"Waffles, Chicken, Pasta, Shrimp",0.005,1355,,,,,6.775
+237,Energy,Home Electricity Use,,,,,0.233,,12.85,,Electricity,"Lights, Fridge, Blender, Electric Stove",2.994
+238,Travel,Commute to work,8,Car,0.15,,0.171,,,,,,1.368
+239,Diet,Lunch,,,,Sandwich,0.005,475,,,,,2.375
+240,Energy,Cooking,,,,,0.233,,38.74,,Electricity,Electric Stove,9.026
+241,Travel,Commute to work,20,Car,0.35,,0.171,,,,,,3.42
+242,Diet,Lunch,,,,Chicken ,0.005,500,,,,,2.5
+243,Energy,Home Electricity Use,,,,,0.233,,7.5,,Electricity,Lights ,1.748
+244,Travel,Commute to work,7.5,Car,0.2,,0.171,,,,,,1.283
+245,Diet,Dinner at restaurant,,,,"Pork, Wine, Cheese, Bread, Salad",0.005,1990,,,,,9.95
+246,Energy,Home Heating,,,,,2.04,,,8.53,Gas,,17.401
+247,Travel,Commute to work,25,Car,0.65,,0.171,,,,,,4.275
+248,Diet,Breakfast,,,,"Chicken, Waffles, Eggs",0.005,650,,,,,3.25
+249,Energy,Home Electricity Use,,,,,0.233,,48.97,,Electricity,"TV, Fridge, Blender, Washing Machine, Dryer, Treadmill, Microwave, Lights",11.41
+250,Travel,Trip to another state,450,Bus,10,,0.103,,,,,,46.35
+251,Diet,Dinner,,,,"Salad, Tofu, Wine",0.002,800,,,,,1.6
+252,Energy,Cooking,,,,,2.04,,,7.45,Gas,Gas stove,15.198
+253,Travel,Commute to work,20,Bus,0.6,,0.103,,,,,,2.06
+254,Diet,Dinner,,,,Chicken ,0.005,675,,,,,3.375
+255,Energy,Cooking,,,,,0.233,,23,,Electricity,Electric Stove,5.359
+256,Travel,Road Trip,150,Car,2.5,,0.171,,,,,,25.65
+257,Diet,Lunch,,,,Chicken salad sandwich,0.005,550,,,,,2.75
+258,Energy,Cooking,,,,,2.04,,,4.58,Gas,Gas stove,9.343
+259,Travel,Commute to work,15.5,Car,0.33,,0.171,,,,,,2.651
+260,Diet,Dinner at restaurant,,,,"Bread, Steak, Mashed Potatoes, Salad, Red Wine",0.005,2000,,,,,10
+261,Energy,Home Heating,,,,,2.04,,,10.23,Gas,,20.869
+262,Travel,Commute to work,45,Car,1,,0.171,,,,,,7.695
+263,Diet,Breakfast,,,,"Sausage, Avocado, Eggs, Toast",0.005,750,,,,,3.75
+264,Energy,Home Electricity Use,,,,,0.233,,35.46,,Electricity,"TV, Fridge, Blender, Electric Stove",8.262
+265,Travel,Trip to another state,230,Bus,5,,0.103,,,,,,23.69
+266,Diet,Dinner,,,,"Salad, Tofu, Wine",0.002,650,,,,,1.3
+267,Energy,Cooking,,,,,2.04,,,5.48,Gas,Gas stove,11.179
+268,Travel,Commute to work,30,Bus,0.75,,0.103,,,,,,3.09
+269,Diet,Dinner,,,,Chicken,0.005,600,,,,,3
+270,Energy,Cooking,,,,,0.233,,13.25,,Electricity,Electric Stove,3.087
+271,Travel,Road Trip,200,Car,6.75,,0.171,,,,,,34.2
+272,Diet,Lunch,,,,Chicken salad sandwich,0.005,560,,,,,2.8
+273,Energy,Cooking,,,,,2.04,,,3.75,Gas,Gas stove,7.65
+274,Travel,Commute to work,10,Bike,0.8,,0,,,,,,0
+275,Diet,Breakfast,,,,Eggs,0.002,250,,,,,0.5
+276,Energy,Home Heating,,,,,2.04,,,5.75,Gas,,11.73
+277,Travel,Walk to dinner,7.5,Walk,0.75,,0,,,,,,0
+278,Diet,Dinner at restaurant,,,,"Fish, Vegetables",0.005,650,,,,,3.25
+279,Energy,Cooking,,,,,2.04,,,13.56,Gas,Gas stove,27.662
+280,Travel,Trip to another state,235,Bus,8,,0.103,,,,,,24.205
+281,Diet,Brunch,,,,"Chicken, Waffles, Eggs",0.005,1200,,,,,6
+282,Energy,Home Electricity Use,,,,,0.233,,45.87,,Electricity,"Blender, TV, Washing Machine, Dryer, Treadmill, Electric Stove, Fridge",10.688
+283,Travel,Road Trip,100,Car,4,,0.171,,,,,,17.1
+284,Diet,Lunch,,,,Salad,0.002,450,,,,,0.9
+285,Energy,Home Electricity Use,,,,,0.233,,23.56,,Electricity,"Lights, TV, A/C",5.489
+286,Travel,Daily Walk,10,Walk,1.5,,0,,,,,,0
+287,Diet,Breakfast,,,,"Bread, Eggs",0.002,350,,,,,0.7
+288,Energy,Home Electricity Use,,,,,0.233,,10,,Electricity,"TV, Fridge",2.33
+289,Travel,Commute to work,25,Bus,1,,0.103,,,,,,2.575
+290,Diet,Lunch,,,,"Beef, Salad",0.005,600,,,,,3
+291,Energy,Drive to Supermarket,5,Car,0.09,,0.171,,,,,,0
+292,Travel,Commute to work,30,Bus,1.5,,0,,,,,,0
+293,Diet,Breakfast,,,,Cereal,0.002,300,,,,,0.6
+294,Energy,Home Heating,,,,,2.04,,5.5,3,Electricity,Heater,11.22
+295,Travel,Commute to work,,Walk,0.5,,0,,,,,,0
+296,Diet,Lunch,,,,Steak sandwich,0.005,650,,,,,3.25
+297,Energy,Washing clothes,,,,,0.233,,2,,Electricity,Washing Machine,0.466
+298,Travel,Trip to another state,200,Bus,8,,0.103,,,,,,20.6
+299,Diet,Dinner at restaurant,,,,"Bread, Steak, Mashed Potatoes, Salad, Red Wine",0.005,1650,,,,,8.25
+300,Energy,Laundry,,,,,0.233,,5.75,,Electricity,Washing Machine,1.34
+301,Travel,Drive down the road,2,Car,0.08,,0.171,,,,,,0.342
+302,Diet,Breakfast,,,,Eggs,0.002,286,,,,,0.572
+303,Energy,Laundry,,,,,0.233,,7.5,,Electricity,Washing Machine,1.748
+304,Travel,Commute to work,20,Car,0.33,,0.171,,,,,,3.42
+305,Diet,Lunch,,,,Salad,0.002,350,,,,,0.7
+306,Energy,Home Electricity Use,,,,,0.233,,15.63,,,"Blender, TV, Fridge",0
+307,Travel,Drive to Supermarket,10,Car,0.15,,0.171,,,,,,1.71
+308,Diet,Breakfast,,,,Cereal,0.002,300,,,,,0.6
+309,Energy,Home Electricity Use,,,,,0.233,,42,,Electricity,"TV, Fridge, Blender, Washing Machine, Dryer, Treadmill",9.786
+310,Travel,Commute to work,10,Bike,0.5,,0,,,,,,0
+311,Diet,Breakfast,,,,"Eggs, Spinach",0.002,350,,,,,0.7
+312,Energy,Home Heating,,,,,2.04,,,5,Gas,,10.2
+313,Travel,Walk to dinner,1,Walk,0.16,,0,,,,,,0
+314,Diet,Dinner at restaurant,,,,"Pork, Wine, Cheese, Bread, Salad",0.005,1750,,,,,8.75
+315,Energy,Cooking,,,,,2.04,,,4.25,Gas,Gas stove,8.67
+316,Travel,Trip to another state,450,Bus,12,,0.103,,,,,,46.35
+317,Diet,Brunch,,,,"Chicken, Waffles, Eggs",0.005,900,,,,,4.5
+318,Energy,Home Electricity Use,,,,,2.04,,,,Electricity,,0
+319,Travel,Road Trip,150,Car,2.48,,0.171,,,,,,25.65
+320,Diet,Lunch,,,,Salad,0.002,250,,,,,0.5
+321,Energy,Home Electricity Use,,,,,0.233,,35,,Electricity,"TV, Fridge, Blender, Electric Stove",8.155
+322,Travel,Daily Walk,10,Walk,2,,0,,,,,,0
+323,Diet,Lunch,,,,Veggie Burger,0.002,450,,,,,0.9
+324,Energy,Home Electricity Use,,,,,0.233,,42,,Electricity,"TV, Fridge, Blender, Washing Machine, Dryer, Treadmill",9.786
+325,Travel,Commute to work,30,Car,0.65,,0.171,,,,,,5.13
+326,Diet,Dinner at restaurant,,,,"Steak, Wine, Burgers, Potatoes",0.005,1850,,,,,9.25
+327,Energy,Home Heating,,,,,0.233,,15,,Electricity,Electric Heater,3.495
+328,Travel,Drive to Supermarket,10,Car,0.35,,0.171,,,,,,1.71
+329,Diet,Breakfast,,,,"Steak, Eggs, Sausage",0.005,600,,,,,3
+330,Energy,Laundry,,,,,0.233,,20,,Electricity,Washing Machine,4.66
+331,Travel,Road Trip,250,Car,,,0.171,,,,,,42.75
+332,Diet,Lunch,,,,"Lamb, Potatoes",0.005,650,,,,,3.25
+333,Energy,Home Heating,,,,,2.04,,,8.5,Gas,,17.34
+334,Travel,Go to Supermarket,35,Bus,0.6,,0.103,,,,,,3.605
+335,Diet,Dinner at restaurant,,,,"Salad, Wine, Salad, Ice Cream",0.002,950,,,,,1.9
+336,Energy,Home Electricity Use,,,,,0.233,,45,,Electricity,"Washing Machine, Dryer, Treadmill, TV, Fridge, Blender",10.485
+337,Travel,Commute to work,40,Car,0.7,,0.171,,,,,,6.84
+338,Diet,Brunch,,,,"Bread, Steak, Mashed Potatoes, Salad, Red Wine",0.005,1200,,,,,6
+339,Energy,Home Electricity Use,,,,,0.233,,55,,Electricity,"TV, Fridge, Blender, Washing Machine, Dryer, Treadmill",12.815
+340,Travel,Commute to work,20,Car,0.33,,0.171,,,,,,3.42
+341,Diet,Lunch,,,,"Chicken, Salad, Juice",0.005,750,,,,,3.75
+342,Energy,Cooking,,,,,0.233,,35,,Electricity,Electric Stove,8.155
+343,Travel,Commute to work,45,Car,0.75,,0.171,,,,,,7.695
+344,Diet,Lunch,,,,"Pork, Wine, Cheese, Bread, Salad",0.005,1350,,,,,6.75
+345,Energy,Home Electricity Use,,,,,0.233,,20,,Electricity,"TV, Fridge",4.66
+346,Travel,Commute to work,20,Car,0.45,,0.171,,,,,,3.42
+347,Diet,Dinner at restaurant,,,,"Chicken, Potatoes, Pasta",0.005,1200,,,,,6
+348,Energy,Home Heating,,,,,2.04,,,9.3,Gas,,18.972
+349,Travel,Commute to work,50,Car,1,,0.171,,,,,,8.55
+350,Diet,Breakfast,,,,"Bread, Sausage",0.005,575,,,,,2.875
+351,Energy,Home Electricity Use,,,,,0.233,,38,,Electricity,"Microwave, Blender, TV, Fridge",8.854
+352,Travel,Trip to another state,86,Bus,2,,0.103,,,,,,8.858
+353,Diet,Dinner,,,,"Salad, Wine",0.002,700,,,,,1.4
+354,Energy,Cooking,,,,,2.04,,,15,Gas,Gas stove,30.6
+355,Travel,Commute to work,25,Bus,0.5,,0.103,,,,,,2.575
+356,Diet,Dinner,,,,"Steak, Potatoes",0.005,650,,,,,3.25
+357,Energy,Cooking,,,,,0.233,,20,,Electricity,Electric Stove,4.66
+358,Travel,Road Trip,300,Car,6.5,,0.171,,,,,,51.3
+359,Diet,Lunch,,,,Sandwich,0.005,450,,,,,2.25
+360,Energy,Cooking,,,,,2.04,,,17.5,Gas,Gas stove,35.7
+361,Travel,Commute to work,30,Car,0.8,,0.171,,,,,,5.13
+362,Diet,Dinner at restaurant,,,,Steak,0.005,550,,,,,2.75
+363,Energy,Home Heating,,,,,2.04,,,6.75,Gas,,13.77
+364,Travel,Commute to work,10,Car,0.25,,0.171,,,,,,1.71
+365,Diet,Breakfast,,,,Chicken Sausage,0.005,300,,,,,1.5
+366,Energy,Home Electricity Use,,,,,0.233,,25.6,,Electricity,,5.965
+367,Travel,Trip to another state,100,Bus,6,,0.103,,,,,,10.3
+368,Diet,Dinner,,,,"Salad, Wine",0.002,600,,,,,1.2
+369,Energy,Cooking,,,,,2.04,,,10,Gas,Gas stove,20.4
+370,Travel,Commute to work,18,Bus,0.5,,0.103,,,,,,1.854
+371,Diet,Dinner,,,,Steak,0.005,700,,,,,3.5
+372,Energy,Cooking,,,,,0.233,,20,,Electricity,Electric Stove,4.66
+373,Travel,Road Trip,135,Car,5,,0.171,,,,,,23.085
+374,Diet,Lunch,,,,Sandwich,0.005,400,,,,,2
+375,Energy,Cooking,,,,,2.04,,,25,Gas,Gas stove,51
+376,Travel,Commute to work,12,Bike,0.65,,0,,,,,,0
+377,Diet,Breakfast,,,,"Eggs, Spinach",0.002,350,,,,,0.7
+378,Energy,Home Heating,,,,,2.04,,,12,Gas,,24.48
+379,Travel,Walk to dinner,3,Walk,0.3,,0,,,,,,0
+380,Diet,Dinner at restaurant,,,,"Lamb, Mashed Potatoes, Wine",0.005,800,,,,,4
+381,Energy,Cooking,,,,,2.04,,,13,Gas,Gas stove,26.52
+382,Travel,Trip to another state,450,Bus,10.5,,0.103,,,,,,46.35
+383,Diet,Brunch,,,,"Chicken, Waffles, Eggs",0.005,850,,,,,4.25
+384,Energy,Home Electricity Use,,,,,0.233,,23,,Electricity,"TV, Fridge, Blender, Electric Stove",5.359
+385,Travel,Road Trip,85,Car,3,,0.171,,,,,,14.535
+386,Diet,Lunch,,,,Salad,0.002,450,,,,,0.9
+387,Energy,Home Electricity Use,,,,,0.233,,12.3,,Electricity,"TV, Fridge",2.866
+388,Travel,Daily Walk,8,Walk,1.5,,0,,,,,,0
+389,Diet,Lunch,,,,"Salad, Tofu, Wine",0.002,850,,,,,1.7
+390,Energy,Home Electricity Use,,,,,0.233,,45.67,,Electricity,"TV, Fridge, Blender, Washing Machine, Dryer, Treadmill, Microwave, Lights",10.641
+391,Travel,Commute to work,30,Car,1,,0.171,,,,,,5.13
+392,Diet,Dinner at restaurant,,,,"Salad, Wine, Salad, Ice Cream",0.005,1350,,,,,6.75
+393,Energy,Home Heating,,,,,0.233,,23.55,,Electricity,"Lights, Fridge, Blender, Electric Stove",5.487
+394,Travel,Drive to Supermarket,10,Car,0.2,,0.171,,,,,,1.71
+395,Diet,Breakfast,,,,Chicken Sausage,0.005,500,,,,,2.5
+396,Energy,Laundry,,,,,0.233,,14.6,,Electricity,"Washing Machine, Dryer",3.402
+397,Travel,Road Trip,100,Car,4.75,,0.171,,,,,,17.1
+398,Diet,Lunch,,,,Steak sandwich,0.005,650,,,,,3.25
+399,Energy,Home Heating,,,,,2.04,,,17.3,Gas,,35.292
+400,Travel,Go to Supermarket,20,Bus,1,,0.103,,,,,,2.06
+401,Diet,Dinner at restaurant,,,,"Salad, Wine, Salad, Ice Cream",0.002,1000,,,,,2
+402,Energy,Home Electricity Use,,,,,0.233,,58,,Electricity,"Blender, TV,Washing Machine, Dryer, Treadmill, Electric Stove, Fridge",13.514
+403,Travel,Commute to work,30,Car,0.7,,0.171,,,,,,5.13
+404,Diet,Brunch,,,,"Waffles, Chicken, Pasta, Shrimp",0.005,850,,,,,4.25
+405,Energy,Home Electricity Use,,,,,0.233,,23,,Electricity,"TV, Fridge, A/C",5.359
+406,Travel,Commute to work,15.5,Car,0.3,,0.171,,,,,,2.651
+407,Diet,Lunch,,,,Chicken salad sandwich,0.005,500,,,,,2.5
+408,Energy,Cooking,,,,,0.233,,25,,Electricity,Electric Stove,5.825
+409,Travel,Commute to work,8,Car,0.25,,0.171,,,,,,1.368
+410,Diet,Lunch,,,,Sandwich,0.005,400,,,,,2
+411,Energy,Home Electricity Use,,,,,0.233,,35.67,,Electricity,"Microwave, Blender, TV, Fridge",8.311
+412,Travel,Commute to work,20,Car,0.33,,0.171,,,,,,3.42
+413,Diet,Dinner at restaurant,,,,Steak,0.005,600,,,,,3
+414,Energy,Home Heating,,,,,2.04,,,10.5,Gas,,21.42
+415,Travel,Commute to work,50,Car,1,,0.171,,,,,,8.55
+416,Diet,Breakfast,,,,Chicken Sausage,0.005,400,,,,,2
+417,Energy,Home Electricity Use,,,,,0.233,,40,,Electricity,"TV, Fridge, Blender, Washing Machine, Dryer, Treadmill, Microwave, Lights",9.32
+418,Travel,Trip to another state,500,Bus,15,,0.103,,,,,,51.5
+419,Diet,Dinner,,,,"Salad, Wine",0.002,500,,,,,1
+420,Energy,Cooking,,,,,2.04,,,13,Gas,Gas stove,26.52
+421,Travel,Commute to work,30,Car,0.5,,0.171,,,,,,5.13
+422,Diet,Breakfast,,,,"Bread, Eggs",0.002,350,,,,,0.7
+423,Energy,Home Electricity Use,,,,,0.233,,10,,Electricity,"TV, Fridge",2.33
+424,Travel,Road Trip,250,Car,,,0.171,,,,,,42.75
+425,Diet,Lunch,,,,"Lamb, Potatoes",0.005,850,,,,,4.25
+426,Energy,Home Heating,,,,,2.04,,,8.5,Gas,,17.34
+427,Travel,Go to Supermarket,35,Bus,0.6,,0.103,,,,,,3.605
+428,Diet,Dinner at restaurant,,,,"Salad, Wine, Salad, Ice Cream",0.002,950,,,,,1.9
+429,Energy,Home Electricity Use,,,,,0.233,,58,,Electricity,"TV, Fridge, Blender, Washing Machine, Dryer, Treadmill, Microwave, Lights",13.514
+430,Travel,Commute to work,30,Bus,1,,0.103,,,,,,3.09
+431,Diet,Lunch,,,,Steak sandwich,0.005,500,,,,,2.5
+432,Energy,Home Heating,,,,,2.04,,,15.23,Gas,,31.069
+433,Travel,Commute to work,10,Bike,0.75,,0,,,,,,0
+434,Diet,Breakfast,,,,"Eggs, Spinach",0.002,350,,,,,0.7
+435,Energy,Home Heating,,,,,2.04,,,7.52,Gas,,15.341
+436,Travel,Commute to work,5,Walk,0.5,,0,,,,,,0
+437,Diet,Lunch,,,,Sandwich,0.005,450,,,,,2.25
+438,Energy,Washing clothes,,,,,0.233,,24.65,,Electricity,Washing Machine,5.743
+439,Travel,Trip to another state,350,Bus,5,,0.103,,,,,,36.05
+440,Diet,Dinner at restaurant,,,,Steak,0.005,750,,,,,3.75
+441,Energy,Laundry,,,,,0.233,,15.68,,Electricity,"Washing Machine, Dryer",3.653
+442,Travel,Drive down the road,3.5,Car,0.25,,0.171,,,,,,0.599
+443,Diet,Breakfast,,,,"Eggs, Spinach",0.002,250,,,,,0.5
+444,Energy,Laundry,,,,,0.233,,5.75,,Electricity,"Washing Machine, Dryer",1.34
+445,Travel,Commute to work,55,Car,1,,0.171,,,,,,9.405
+446,Diet,Lunch,,,,Salad,0.002,450,,,,,0.9
+447,Energy,Home Electricity Use,,,,,0.233,,42.5,,Electricity,"TV, Fridge, Blender, Washing Machine, Dryer, Treadmill, Microwave, Lights",9.903
+448,Travel,Drive to Supermarket,15,Car,0.4,,0.171,,,,,,2.565
+449,Diet,Breakfast,,,,Eggs,0.002,250,,,,,0.5
+450,Energy,Home Electricity Use,,,,,0.233,,35.46,,Electricity,"Blender, TV, Fridge",8.262
+451,Travel,Commute to work,10,Walk,1.5,,0,,,,,,0
+452,Diet,Breakfast,,,,"Eggs, Spinach",0.002,380,,,,,0.76
+453,Energy,Home Heating,,,,,2.04,,,8.5,Gas,,17.34
+454,Travel,Road Trip,250,Car,,,0.171,,,,,,42.75
+455,Diet,Lunch,,,,"Lamb, Potatoes",0.005,850,,,,,4.25
+456,Energy,Home Heating,,,,,2.04,,,8.5,Gas,,17.34
